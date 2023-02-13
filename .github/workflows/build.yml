@@ -51,6 +51,10 @@ jobs:
           node-version: 'lts/*'
           cache: 'pnpm'
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+
       - name: Install Node dependencies
         run: pnpm install
 
