@@ -1,0 +1,21 @@
+{
+  "name": "astro-tauri",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "format": "prettier -w --plugin-search-dir=. ./src/**"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0",
+    "astro": "^2.0.10"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
+    "prettier": "^2.8.4",
+    "prettier-plugin-astro": "^0.8.0"
+  }
+}
